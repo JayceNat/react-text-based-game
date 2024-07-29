@@ -1,0 +1,28 @@
+.outline-container {
+    background-color: transparent;
+    outline: 1.25px solid var(--user-accent-color);
+    margin: 25px;
+    outline-offset: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: auto;
+}
+
+.outline-container-header {
+    background-color: var(--user-accent-color);
+    color: var(--user-background-color);
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.outline-container-content {
+    overflow-y: auto;
+    height: 100%;
+    float: left;
+    text-align: left;
+    justify-content: space-between;
+}
