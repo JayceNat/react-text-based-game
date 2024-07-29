@@ -1,15 +1,30 @@
 :root {
   font-family:'Courier New', Courier, monospace;
-  /* line-height: 1.5; */
   line-height: 1.25;
-  /* font-weight: 400; */
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: var(--black);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --black: #000;
+  --white: #fff;
+  --dark-grey: #3d3f49;
+  --light-grey: #cae5fd;
+  --grey-color: #b1c7da;
+  --grey-bg: #202427;
+  --blue-color: rgb(46, 207, 255);
+  --blue-bg: rgb(5, 35, 44);
+  --amber-color: rgb(255, 182, 66);
+  --amber-bg: rgb(46, 33, 13);
+  --green-color: rgb(26, 255, 128);
+  --green-bg: rgb(4, 36, 17);
+  --white-color: rgb(192, 255, 255);
+  --white-bg: rgb(29, 37, 37);
+
+  --user-accent-color: var(--grey-color);
+  --user-bg-color: var(--grey-bg);
 }

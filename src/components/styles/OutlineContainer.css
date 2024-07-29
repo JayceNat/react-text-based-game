@@ -13,7 +13,7 @@
 
 .outline-container-header {
     background-color: var(--user-accent-color);
-    color: var(--user-background-color);
+    color: var(--user-bg-color);
     padding: 5px;
     font-weight: bold;
     text-align: center;

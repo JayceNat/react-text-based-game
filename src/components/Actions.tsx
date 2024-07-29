@@ -2,8 +2,9 @@ import { useState } from "react";
 import './styles/Actions.css'
 import { OutlineContainer } from "./OutlineContainer";
 
-const changed = (colorVar: string = 'grey') => {
-    document.body.style.setProperty('--user-accent-color', `var(--custom-${colorVar || 'grey'})`);
+const setTheme = (colorVar: string = 'grey') => {
+    document.body.style.setProperty('--user-accent-color', `var(--${colorVar || 'grey'}-color)`);
+    document.body.style.setProperty('--user-bg-color', `var(--${colorVar || 'grey'}-bg)`);
 }
 
 export function Actions() {
@@ -16,23 +17,20 @@ export function Actions() {
                     <button className='action-button' onClick={() => setCount(count+1)}>
                         count is {count}
                     </button>
-                    <button className='action-button' onClick={() => changed()}>
-                        Terminal Default
+                    <button className='action-button' onClick={() => setTheme()}>
+                        Default Theme
                     </button>
-                    <button className='action-button' onClick={() => changed('blue')}>
-                        Terminal Blue
+                    <button className='action-button' onClick={() => setTheme('blue')}>
+                        Blue Theme
                     </button>
-                    <button className='action-button' onClick={() => changed('amber')}>
-                        Terminal Amber
+                    <button className='action-button' onClick={() => setTheme('amber')}>
+                        Amber Theme
                     </button>
-                    <button className='action-button' onClick={() => changed('green')}>
-                        Terminal Green
+                    <button className='action-button' onClick={() => setTheme('green')}>
+                        Green Theme
                     </button>
-                    <button className='action-button' onClick={() => changed('white')}>
-                        Terminal White
-                    </button>
-                    <button className='action-button' onClick={() => changed('cinder')}>
-                        Terminal Black
+                    <button className='action-button' onClick={() => setTheme('white')}>
+                        White Theme
                     </button>
                 </div>
             </OutlineContainer>
