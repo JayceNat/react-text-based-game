@@ -9,7 +9,14 @@ export function CommandTerminal() {
                     <div>Please enter a command:</div>
                     <div>{'>|'}</div>
                 </div>
+
             </OutlineContainer>
+                {/* <div id="screen">
+                    <div id="crt">
+                        <div className="scanline"></div>
+                        <div className="terminal"></div>
+                    </div>
+                </div> */}
         </div>
     )
 }
