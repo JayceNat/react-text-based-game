@@ -271,7 +271,7 @@
      overflow-x: hidden;
      word-break: break-word;
      text-transform: uppercase;
-     animation: textShadow 14s infinite;
+     animation: textShadow 4s infinite;
      background-image: url(../images/dusty_monitor_texture_flipped.png);
      background-size: cover;
      background-position: center;
