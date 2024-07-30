@@ -146,34 +146,29 @@
  
  /*********** PARTS OF THE SCREEN *************/
  
- #monitor {
+ /* #monitor {
      margin: 2vmin auto;
      padding: 3.5vmin;
      width: 100%;
-     /* width: min-content; */
-     /* display: flex; */
-     /* flex-direction: column; */
-     /* align-items: center; */
-     /* background: #3f3933; */
-     background-image: url(../assets/dusty_monitor_texture.png);
+     background-image: url(../images/dusty_monitor_texture.png);
      background-color: #281909;
      border-radius: 2.5rem;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
     opacity: 100%;
- }
+ } */
  #monitor:not(.off) {
      box-shadow: 0.6px 90px 110px -60px var(--bg); /* screen glow */
  }
- #screen {
+ /* #screen {
      position: relative;
      border: 30px solid transparent;
-     border-image-source: url(/img/bezel_gray.png);
+     border-image-source: url(../images/bezel.png);
      border-image-slice: 30 fill;
      border-image-outset: 0;
      overflow: hidden;
- }
+ } */
  /* The screen itself + border */
  #crt,
  pre {
@@ -277,7 +272,7 @@
      word-break: break-word;
      text-transform: uppercase;
      animation: textShadow 4s infinite;
-     background-image: url(../assets/dusty_monitor_texture_flipped.png);
+     background-image: url(../images/dusty_monitor_texture_flipped.png);
      background-size: cover;
      background-position: center;
  }
@@ -310,7 +305,7 @@
      position: absolute;
      bottom: 100%;
      pointer-events: none;
-     animation: scanline 10s linear infinite;
+     animation: scanline 8s linear infinite;
  }
  
  /*********** CONTROLS *************/

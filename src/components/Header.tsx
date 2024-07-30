@@ -1,4 +1,4 @@
-import reactLogo from '../assets/react.svg'
+import reactLogo from '../images/react.svg'
 import viteLogo from '/vite.svg'
 import '../styles/Header.css'
 import { OutlineContainer } from './OutlineContainer'

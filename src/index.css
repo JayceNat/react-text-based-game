@@ -26,6 +26,12 @@
   --white-color: rgb(192, 255, 255);
   --white-bg: rgb(29, 37, 37);
 
+	--dark-brown-monitor: #281909; /* dark brown */
+  --brown-monitor: #3f2815; /* brown */
+	--dark-grey-monitor: #373029; /* dark grey */
+	--grey-monitor: #514c48; /* grey */
+	--light-grey-monitor: #716c65; /* light grey */
+
   --user-accent-color: var(--grey-color);
   --user-bg-color: var(--grey-bg);
 }

@@ -1,7 +1,24 @@
+#monitor {
+	margin: 2vmin auto;
+	padding: 3.5vmin;
+	width: 100%;
+	/* width: min-content; */
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* align-items: center; */
+	/* background: #3f3933; */
+	background-image: url(../images/dusty_monitor_texture.png);
+	background-color: var(--grey-monitor);
+	border-radius: 2.5rem;
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center;
+   opacity: 100%;
+}
 #screen {
 	position: relative;
 	border: 30px solid transparent;
-	border-image-source: url(../assets/bezel-amber.png);
+	border-image-source: url(../images/bezel-grey.png);
 	border-image-slice: 30 fill;
 	border-image-outset: 0;
 	overflow: hidden;
@@ -59,14 +76,14 @@ pre {
      /* background: #281909; */
      /* background-color: #281909; */
      /* background-color: #281909;
-     background-image: url(../../assets/dusty_monitor_texture.png); */
+     background-image: url(../../images/dusty_monitor_texture.png); */
      /* border-radius: 0.5rem; */
 
-     /* background-image: url(../../assets/dusty_monitor_texture.png);
+     /* background-image: url(../../images/dusty_monitor_texture.png);
     background-repeat: no-repeat;
     background-size: cover;
 	background-position: center; */
-	/* background-image: url('../../assets/dusty_monitor_texture.png');
+	/* background-image: url('../../images/dusty_monitor_texture.png');
 	background-size: cover;
 	background-position: center;
 	mix-blend-mode: multiply;
@@ -82,7 +99,7 @@ pre {
   }
   
   .lines-overlay {
-	background-image: url('../assets/crt_monitor_pattern.png');
+	background-image: url('../images/crt_monitor_pattern.png');
 	background-repeat: repeat;
 	background-size: 20px;
 	background-position: center;
@@ -99,7 +116,7 @@ pre {
   }
   
   .dots-overlay {
-	background-image: url('../assets/pixels_pattern.jpg');
+	background-image: url('../images/pixels_pattern.jpg');
 	background-repeat: repeat;
 	background-size: 20px;
 	background-position: center;
