@@ -1,5 +1,8 @@
 import { Actions } from './Actions'
 import '../styles/Monitor.css'
+import { CommandTerminal } from './CommandTerminal'
+import { Header } from './Header'
+import { Keyboard } from './Keyboard'
 
 export function Monitor() {
     return (
@@ -8,8 +11,14 @@ export function Monitor() {
                     <div id="crt">
                         <div className="scanline"></div>
                         <div className="terminal">
-
-                            <Actions></Actions>
+                            <div className='page-container'>
+                                <Header></Header>
+                                <div className='terminal-area'>
+                                    <CommandTerminal></CommandTerminal>
+                                    <Actions></Actions>
+                                </div>
+                                <Keyboard></Keyboard>
+                            </div>
                         </div>
                     </div>
                 </div>
