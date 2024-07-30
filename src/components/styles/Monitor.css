@@ -48,7 +48,25 @@ pre {
 
 
 .texture-overlay {
-	background-image: url('../../assets/dusty_monitor_texture.jpg');
+	/* margin: 3vmin auto;
+     padding: 5.5vmin;
+     width: 100%; */
+     /* width: min-content; */
+     /* display: flex; */
+     /* flex-direction: column; */
+     /* align-items: center; */
+     /* background: #3f3933; */
+     /* background: #281909; */
+     /* background-color: #281909; */
+     /* background-color: #281909;
+     background-image: url(../../assets/dusty_monitor_texture.png); */
+     /* border-radius: 0.5rem; */
+
+     /* background-image: url(../../assets/dusty_monitor_texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center; */
+	/* background-image: url('../../assets/dusty_monitor_texture.png');
 	background-size: cover;
 	background-position: center;
 	mix-blend-mode: multiply;
@@ -60,7 +78,7 @@ pre {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	overscroll-behavior: none;
+	overscroll-behavior: none; */
   }
   
   .lines-overlay {

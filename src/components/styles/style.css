@@ -155,8 +155,13 @@
      /* flex-direction: column; */
      /* align-items: center; */
      /* background: #3f3933; */
-     background: #281909;
-     border-radius: 0.5rem;
+     background-image: url(../../assets/dusty_monitor_texture.png);
+     background-color: #281909;
+     border-radius: 2.5rem;
+    background-repeat: no-repeat;
+    background-size: auto;
+	background-position: center;
+    opacity: 100%;
  }
  #monitor:not(.off) {
      box-shadow: 0.6px 90px 110px -60px var(--bg); /* screen glow */
@@ -272,11 +277,15 @@
      word-break: break-word;
      text-transform: uppercase;
      animation: textShadow 4s infinite;
+     background-image: url(../../assets/dusty_monitor_texture_flipped.png);
+     background-size: cover;
+     background-position: center;
  }
  
  .terminal,
  .fullscreen {
-     color: var(--color);
+     /* color: var(--color); */
+     color: var(--user-accent-color);
      text-shadow: 0 0 5px #c8c8c8;
  }
  
