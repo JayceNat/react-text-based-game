@@ -11,12 +11,6 @@ export function CommandTerminal() {
                 </div>
 
             </OutlineContainer>
-                {/* <div id="screen">
-                    <div id="crt">
-                        <div className="scanline"></div>
-                        <div className="terminal"></div>
-                    </div>
-                </div> */}
         </div>
     )
 }
