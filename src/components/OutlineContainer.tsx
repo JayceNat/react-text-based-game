@@ -1,4 +1,4 @@
-import './styles/OutlineContainer.css'
+import '../styles/OutlineContainer.css'
 
 export function OutlineContainer({ headerText, children }: { headerText: string, children: any }) {
     return (

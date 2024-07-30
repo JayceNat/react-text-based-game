@@ -147,20 +147,20 @@
  /*********** PARTS OF THE SCREEN *************/
  
  #monitor {
-     margin: 3vmin auto;
-     padding: 5.5vmin;
+     margin: 2vmin auto;
+     padding: 3.5vmin;
      width: 100%;
      /* width: min-content; */
      /* display: flex; */
      /* flex-direction: column; */
      /* align-items: center; */
      /* background: #3f3933; */
-     background-image: url(../../assets/dusty_monitor_texture.png);
+     background-image: url(../assets/dusty_monitor_texture.png);
      background-color: #281909;
      border-radius: 2.5rem;
     background-repeat: no-repeat;
     background-size: auto;
-	background-position: center;
+    background-position: center;
     opacity: 100%;
  }
  #monitor:not(.off) {
@@ -277,7 +277,7 @@
      word-break: break-word;
      text-transform: uppercase;
      animation: textShadow 4s infinite;
-     background-image: url(../../assets/dusty_monitor_texture_flipped.png);
+     background-image: url(../assets/dusty_monitor_texture_flipped.png);
      background-size: cover;
      background-position: center;
  }

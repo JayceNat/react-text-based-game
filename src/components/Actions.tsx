@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './styles/Actions.css'
+import '../styles/Actions.css'
 import { OutlineContainer } from "./OutlineContainer";
 
 const setTheme = (colorVar: string = 'grey') => {

@@ -1,6 +1,6 @@
 import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
-import './styles/Header.css'
+import '../styles/Header.css'
 import { OutlineContainer } from './OutlineContainer'
 
 export function Header() {

@@ -1,5 +1,5 @@
 import { Actions } from './Actions'
-import './styles/Monitor.css'
+import '../styles/Monitor.css'
 
 export function Monitor() {
     return (

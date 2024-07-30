@@ -1,5 +1,6 @@
 import { OutlineContainer } from './OutlineContainer'
-import './styles/CommandTerminal.css'
+import '../styles/CommandTerminal.css'
+import { Monitor } from './Monitor'
 
 export function CommandTerminal() {
     return (
@@ -11,6 +12,8 @@ export function CommandTerminal() {
                 </div>
 
             </OutlineContainer>
+
+            {/* <Monitor></Monitor> */}
         </div>
     )
 }

@@ -7,12 +7,12 @@
 
 body, html {
   background-image: url('./assets/dusty_monitor.jpg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  /* background-image: url('./assets/tropical_monitor.jpg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
-  /* background-image: url('./assets/candy_monitor.jpg'), linear-gradient(rgba(255, 48, 48, 0.1), rgba(0, 0, 0, .1)); */
-  /* background-image: url('./assets/halloween_monitor.jpg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
-  /* background-blend-mode: multiply; */
+  background-blend-mode: luminosity;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
+  height: 100%;
+  width: 100%;
   color: var(--user-accent-color);
   font-size: 14px;
   line-height: 1.25;
